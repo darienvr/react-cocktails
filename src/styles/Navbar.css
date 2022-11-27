@@ -1,0 +1,43 @@
+.navbar {
+    padding: 5rem;
+    background-color: #000;
+}
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 100px;
+}
+
+.navbar-brand {
+    padding-left: 100px;
+}
+
+.navbar-toggler-icon{
+    border-radius: 5px;
+}
+
+.nav-link:hover{
+    font-size: 18px;
+}
+
+@media (max-width: 767px) {
+
+    .navbar-brand{
+        display: none;
+    }
+
+    .navbar-nav{
+        padding: 0;
+    }
+
+    .nav-link:hover{
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,33 @@
+
+.single-cocktail{
+    background-color: var(--clr-bcg);
+    color: var(--clr-font);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-single-cocktail{
+    font-family: 'Fredoka One', cursive;
+    padding: 20px 0;
+    font-size: 40px;
+}
+
+.img-single-cocktail{
+    height: 500px;
+    width: 450px;
+    border-radius: 5px;
+}
+
+.info-single-cocktail{
+    padding: 25px 10%;
+    font-family: 'Sono', sans-serif;
+}
+
+.info-single-cocktail span{
+    font-weight: bold;
+}
+
+.single-cocktail .btn {
+    margin: 20px 0;
+}

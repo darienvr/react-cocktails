@@ -1,0 +1,30 @@
+:root {
+    --clr-bcg: #fff;
+    --clr-font: #282c35;
+    --clr-primary: #d23669;
+    --form: rgb(244, 244, 244);
+  }
+  
+  .dark-theme {
+    --clr-bcg: #282c35;
+    --clr-font: #fff;
+    --clr-primary: #ffa7c4;
+    --form: #31353e;
+  }
+  .light-theme {
+    --clr-bcg: #fff;
+    --clr-font: #282c35;
+    --clr-primary: #d23669;
+    --form: rgb(244, 244, 244);
+  }
+
+main {
+    background-color: var(--clr-bcg);
+    color: var(--clr-font);
+}
+
+
+
+
+
+
