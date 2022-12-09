@@ -24,7 +24,7 @@
 }
 
 .nav-link:hover{
-    font-size: 18px;
+    transform: scale(1.2);
 }
 
 @media (max-width: 767px) {

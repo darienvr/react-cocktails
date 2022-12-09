@@ -19,6 +19,10 @@ const ListCocktails = () => {
         paginaActual * TOTAL_PAGINA
     );
 
+    React.useEffect(()=> {
+        setPaginaActual(1)
+    }, [cocktails])
+
     if (loading) {
         return <div className='loading'>CARGANDO...</div>
       }
