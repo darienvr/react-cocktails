@@ -45,7 +45,7 @@ const ListCocktails = () => {
                             {datos.map((item) => {
                                 return (
                                 <div key={item.id} className='col-sm-12 col-md-6 col-lg-4 d-flex'>
-                                    <Cocktail {...item} />
+                                    <Cocktail {...item}/>
                                 </div>
                                 )
                             })}

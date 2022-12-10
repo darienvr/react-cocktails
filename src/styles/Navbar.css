@@ -23,6 +23,11 @@
     border-radius: 5px;
 }
 
+.navbar-toggler-icon:hover{
+    transform: rotate(0deg) scale(1.2);
+    transition: all .5s ease;
+}
+
 .nav-link:hover{
     transform: scale(1.2);
 }
@@ -38,6 +43,6 @@
     }
 
     .nav-link:hover{
-        font-size: 20px;
+        transform: scale(1.2);
     }
 }

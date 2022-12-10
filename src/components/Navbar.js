@@ -12,7 +12,7 @@ const Navbar = () => {
                     <h1 className="navbar-brand text-light">CocktailsDB</h1>
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <Link to='/' className="nav-link active text-light" aria-current="page">Home</Link>
+                            <Link to='/' className="nav-link text-light" aria-current="page">Home</Link>
                         </li>
                         <li className="nav-item">
                             <Link to='/about' className="nav-link text-light">About</Link>
