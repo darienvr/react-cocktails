@@ -12,8 +12,8 @@ function App() {
     <Router basename='/react-cocktails'>
       <Navbar />
       <Routes>
-        <Route path='/react-cocktails' element={<Home />} />
-        <Route path='about' element={<About />} />
+        <Route exact path='/react-cocktails' element={<Home />} />
+        <Route path='/about' element={<About />} />
         <Route path='cocktail/:id' element={<SingleCocktail />} />
       </Routes>
     </Router>
