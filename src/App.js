@@ -9,10 +9,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
 
   return (
-    <Router>
+    <Router basename='/react-cocktails'>
       <Navbar />
       <Routes>
-        <Route path='/' element={<Home />} />
+        <Route path='/react-cocktails' element={<Home />} />
         <Route path='about' element={<About />} />
         <Route path='cocktail/:id' element={<SingleCocktail />} />
       </Routes>
